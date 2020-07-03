@@ -26,7 +26,7 @@ class M_user extends CI_Model {
 
 	public function update_user($data, $id)
 	{
-	  =
+	  
 	   return $this->db->update("user", $data, $id);
 	}
 

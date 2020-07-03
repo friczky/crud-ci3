@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-    <title>Data user</title>
+    <title>Data User</title>
   </head>
 
   <body>
@@ -15,7 +15,7 @@
         <div class="col-md-12">
           <div class="card">
             <div class="card-header">
-              DATA user
+              DATA User
             </div>
             <div class="card-body">
               <a href="<?php echo base_url() ?>index.php/user/tambah" class="btn btn-md btn-success" style="margin-bottom: 10px">TAMBAH DATA</a>

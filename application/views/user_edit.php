@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <title>Edit Siswa</title>
+    <title>Edit User</title>
   </head>
 
   <body>
@@ -14,7 +14,7 @@
         <div class="col-md-8 offset-md-2">
           <div class="card">
             <div class="card-header">
-              EDIT SISWA
+              EDIT User
             </div>
             <div class="card-body">
               <form action="<?php echo base_url() ?>index.php/user/update" method="POST">
