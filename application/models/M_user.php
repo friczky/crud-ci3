@@ -5,7 +5,7 @@ class M_user extends CI_Model {
 
     public function get_user()
     {
-        //select semua data siswa
+
         $this->db->select('*');
         $this->db->from('user');
         $this->db->order_by('id', 'DESC');
@@ -26,12 +26,13 @@ class M_user extends CI_Model {
 
 	public function update_user($data, $id)
 	{
-	   //update siswa
+	  =
 	   return $this->db->update("user", $data, $id);
 	}
 
-	function hapus_data($where,$table){
+	function hapus_data($where,$table)
+	{
 	$this->db->where($where);
 	$this->db->delete($table);
-}
+	}
 }

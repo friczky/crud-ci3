@@ -41,7 +41,7 @@ class User extends CI_Controller {
         //insert data via model
         $this->m_user->save_user($data);
 
-        //redirect ke controller siswa
+      
         redirect('user');
 
          }
@@ -82,7 +82,6 @@ class User extends CI_Controller {
                    //update via model    
                    $this->m_user->update_user($data, $id);
 
-                   //redirect ke controller siswa
                    redirect('user');
                 }
 
